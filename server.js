@@ -18,7 +18,7 @@ app.get('/',(req,res)=>{
 
 //about page/url
 app.get('/about',(req,res)=>{
-    res.render('pages/index');
+    res.render('pages/index', {'title' : title});
 
 });
 
